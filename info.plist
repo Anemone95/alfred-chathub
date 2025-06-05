@@ -1735,7 +1735,7 @@ Here is how to get those api-keys:
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>openai</string>
+				<string>gemini</string>
 				<key>pairs</key>
 				<array>
 					<array>
@@ -1900,9 +1900,17 @@ Here is how to get those api-keys:
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>gemini-1.5-pro</string>
+				<string>gemini-2.0-flash</string>
 				<key>pairs</key>
 				<array>
+					<array>
+						<string>gemini-2.5-flash-preview-05-20</string>
+						<string>gemini-2.5-flash-preview-05-20</string>
+					</array>
+					<array>
+						<string>Gemini 2.0 Flash</string>
+						<string>gemini-2.0-flash</string>
+					</array>
 					<array>
 						<string>Gemini 1.5 Pro</string>
 						<string>gemini-1.5-pro</string>
